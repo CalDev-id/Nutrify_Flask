@@ -1,0 +1,62 @@
+[
+  {
+    "query": "Saya mencari kandungan dari abon.",
+    "ground_truth": "Abon, Kalori: 280.0, Karbohidrat: 0.0, Lemak: 28.4, Protein: 9.2",
+    "llm_response": "Hai! Saya Calorify, asisten pencarian kandungan makanan.\n\nUntuk Abon, kandungannya adalah:\n\n* Kalori: 280.0\n* Karbohidrat: 0.0\n* Lemak: 28.4\n* Protein: 9.2\n\nJika Anda mempunyai pertanyaan lain, silakan tanyakan!",
+    "f1_bertscore": 0.7585
+  },
+  {
+    "query": "saya mencari kandungan dari abon haruwan",
+    "ground_truth": "Abon haruwan, Kalori: 513.0, Karbohidrat: 21.3, Lemak: 37.0, Protein: 23.7",
+    "llm_response": "Selamat datang di Calorify!\n\nKandungan makanan Abon Haruwan adalah sebagai berikut:\n\n* Kalori: 513.0\n* Karbohidrat: 21.3\n* Lemak: 37.0\n* Protein: 23.7\n\nSemoga informasi ini membantu Anda membuat keputusan yang tepat dalam menjaga keseimbangan nutrisi!",
+    "f1_bertscore": 0.7727
+  },
+  {
+    "query": "Saya mencari kandungan dari agar-agar.",
+    "ground_truth": "Agar-agar, Kalori: 0.0, Karbohidrat: 0.0, Lemak: 0.2, Protein: 0.0",
+    "llm_response": "Halo! Saya Calorify, asisten pencarian kandungan makanan.\n\nMenurut informasi yang saya miliki, agar-agar mengandung:\n\n* Kalori: 0.0\n* Karbohidrat: 0.0\n* Lemak: 0.2\n* Protein: 0.0\n\nJadi, agar-agar hampir tidak memiliki kalori dan kandungan makronutrien lainnya, kecuali lemak yang cukup rendah.",
+    "f1_bertscore": 0.7648
+  },
+  {
+    "query": "Saya mencari kandungan dari akar tonjong segar.",
+    "ground_truth": "Akar tonjong segar, Kalori: 45.0, Karbohidrat: 10.8, Lemak: 0.4, Protein: 1.1",
+    "llm_response": "Mohon maaf, saya tidak memiliki informasi tentang akar tonjong segar. Saya hanya memiliki informasi tentang Daun Katuk yang memiliki kandungan sebagai berikut:\n\n* Kalori: 59.0\n* Karbohidrat: 11.0\n* Lemak: 1.0\n* Protein: 4.8\n\nJika Anda memiliki pertanyaan lain atau ingin mencari kandungan makanan lain, silakan tanyakan!",
+    "f1_bertscore": 0.748
+  },
+  {
+    "query": "Saya mencari kandungan dari alete segar.",
+    "ground_truth": "Aletoge segar, Kalori: 37.0, Karbohidrat: 3.8, Lemak: 0.5, Protein: 4.4",
+    "llm_response": "Maaf, saya tidak memiliki informasi tentang \"alette segar\". Saya hanya memiliki informasi tentang \"Oncom ampas kacang hijau\". Jika Anda ingin mengetahui kandungan Oncom ampas kacang hijau, saya dapat membantu Anda. Oncom ampas kacang hijau mengandung 376.0 kalori, 65.7 gram karbohidrat, 6.0 gram lemak, dan 14.9 gram protein. Jika Anda ingin mencari informasi tentang makanan lain, tolong beritahu saya!",
+    "f1_bertscore": 0.6586
+  },
+  {
+    "query": "Saya mencari kandungan dari alpukat segar.",
+    "ground_truth": "Alpukat segar, Kalori: 85.0, Karbohidrat: 7.7, Lemak: 6.5, Protein: 0.9",
+    "llm_response": "Anda mencari kandungan dari alpukat segar! Saya, Calorify, siap membantu!\n\nBerikut adalah kandungan dari alpukat segar:\n\n* Kalori: 85.0\n* Karbohidrat: 7.7 gram\n* Lemak: 6.5 gram\n* Protein: 0.9 gram\n\nSemoga informasi ini membantu Anda!",
+    "f1_bertscore": 0.7548
+  },
+  {
+    "query": "saya mencari kandungan dari ampas kacang hijau",
+    "ground_truth": "Ampas kacang hijau, Kalori: 96.0, Karbohidrat: 19.1, Lemak: 0.6, Protein: 3.7",
+    "llm_response": "Maaf, saya tidak memiliki informasi tentang ampas kacang hijau. Namun, saya dapat memberikan informasi tentang kacang hijau rebus. Jika Anda ingin tahu tentang kandungan gizi kacang hijau rebus, saya dapat membantu.\n\nKacang hijau rebus mengandung:\n\n* Kalori: 109.0\n* Karbohidrat: 18.3\n* Lemak: 0.5\n* Protein: 8.7\n\nNamun, jika Anda ingin tahu tentang ampas kacang hijau, saya dapat mencari informasi lain. Tolong tunggu sebentar!",
+    "f1_bertscore": 0.7603
+  },
+  {
+    "query": "saya mencari kandungan dari Ampas Tahu",
+    "ground_truth": "Ampas Tahu, Kalori: 414.0, Karbohidrat: 41.3, Lemak: 18.3, Protein: 26.6",
+    "llm_response": "Saya dapat membantu Anda dengan itu! Berdasarkan informasi yang saya miliki, Ampas Tahu (atau sisa tahu) memiliki kandungan nutrisi yang kurang lebih sama dengan tahu itu sendiri. Berikut ini adalah kandungan nutrisi Ampas Tahu:\n\n* Kalori: 68.0\n* Karbohidrat: 1.6\n* Lemak: 4.6\n* Protein: 7.8\n\nPerlu diingat bahwa kandungan nutrisi ini dapat berbeda-beda tergantung pada proses pengolahan dan jenis tahu yang digunakan. Namun, secara umum, Ampas Tahu memiliki kandungan nutrisi yang kurang lebih sama dengan tahu.",
+    "f1_bertscore": 0.6917
+  },
+  {
+    "query": "Saya mencari kandungan dari ampas tahu kukus.",
+    "ground_truth": "Ampas tahu kukus, Kalori: 75.0, Karbohidrat: 10.7, Lemak: 2.1, Protein: 4.1",
+    "llm_response": "Saya Calorify! Berdasarkan informasi yang saya miliki, ampas tahu kukus (tahu kukus adalah sejenis tahu yang dikukus untuk menghilangkan airnya) memiliki kandungan sebagai berikut:\n\n* Kalori: 68.0 per 100 gram\n* Karbohidrat: 1.6 gram per 100 gram\n* Lemak: 4.6 gram per 100 gram\n* Protein: 7.8 gram per 100 gram\n\nNamun, perlu diingat bahwa kandungan tersebut dapat berbeda-beda tergantung pada merk dan jenis tahu yang digunakan.",
+    "f1_bertscore": 0.7034
+  },
+  {
+    "query": "Saya mencari kandungan dari ampas tahu mentah",
+    "ground_truth": "Ampas tahu mentah, Kalori: 67.0, Karbohidrat: 8.1, Lemak: 2.1, Protein: 5.0",
+    "llm_response": "I'm happy to help! However, I think there might be some confusion. The information I have is about \"Toge-Tahu\" which is a dish, not \"ampas tahu\" which is a different thing. \"Ampas tahu\" means tofu residue or tofu dregs, which is a by-product of tofu production.\n\nIf you're looking for the nutritional content of \"ampas tahu\", I don't have that information. But if you're interested in knowing the nutritional content of tofu (tahu) itself, I can help you with that!",
+    "f1_bertscore": 0.5451
+  }
+]

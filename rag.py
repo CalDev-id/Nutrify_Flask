@@ -66,13 +66,15 @@ class RagChroma:
         # 4. Buat jawaban dengan LLM
         groq_run = GroqRunTime()
         system_prompt = (
-            f"Anda adalah asisten pencarian kandungan makanan berbahasa Indonesia. "
+            f"Anda adalah asisten pencarian kandungan makanan berbahasa Indonesia.\n"
             f"Nama anda adalah Calorify. Jawab pertanyaan user berdasarkan informasi makanan ini:\n"
             f"Nama makanan: {best_resource.get('name', '-')}, "
             f"Kalori: {best_resource.get('calories', '-')}, "
             f"Karbohidrat: {best_resource.get('carbohydrate', '-')}, "
             f"Lemak: {best_resource.get('fat', '-')}, "
             f"Protein: {best_resource.get('proteins', '-')}"
+            # f"jika tidak ada jawab saja makanan tersebut belum tersedia di database calorify."
+            f"jika makanan tidak ada di database calorify tolong jawab sesuai pengetahuan kamu."
         )
 
         response = groq_run.generate_response(system_prompt, query)

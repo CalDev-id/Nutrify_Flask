@@ -1,0 +1,62 @@
+[
+  {
+    "query": "Saya mencari kandungan dari abon.",
+    "ground_truth": "Abon, Kalori: 280.0, Karbohidrat: 0.0, Lemak: 28.4, Protein: 9.2",
+    "llm_response": "Makanan yang Anda cari adalah Abon!\n\nBerikut adalah kandungan Abon yang tersedia di database Calorify:\n\n* Kalori: 280.0\n* Karbohidrat: 0.0\n* Lemak: 28.4\n* Protein: 9.2",
+    "f1_bertscore": 0.7961
+  },
+  {
+    "query": "saya mencari kandungan dari abon haruwan",
+    "ground_truth": "Abon haruwan, Kalori: 513.0, Karbohidrat: 21.3, Lemak: 37.0, Protein: 23.7",
+    "llm_response": "Abon Haruwan! Makanan yang satu ini memiliki kandungan sebagai berikut:\n\n* Kalori: 513.0\n* Karbohidrat: 21.3\n* Lemak: 37.0\n* Protein: 23.7\n\nJika Anda ingin mengetahui lebih lanjut tentang kandungan Abon Haruwan, silakan tanyakan!",
+    "f1_bertscore": 0.7888
+  },
+  {
+    "query": "Saya mencari kandungan dari agar-agar.",
+    "ground_truth": "Agar-agar, Kalori: 0.0, Karbohidrat: 0.0, Lemak: 0.2, Protein: 0.0",
+    "llm_response": "Makanan yang Anda cari adalah Agar-agar! Berikut adalah kandungan nutrisinya:\n\n* Kalori: 0.0\n* Karbohidrat: 0.0\n* Lemak: 0.2\n* Protein: 0.0\n\nJika Anda ingin mengetahui detail lebih lanjut atau ingin mencari kandungan nutrisi makanan lainnya, silakan tanyakan!",
+    "f1_bertscore": 0.7604
+  },
+  {
+    "query": "Saya mencari kandungan dari akar tonjong segar.",
+    "ground_truth": "Akar tonjong segar, Kalori: 45.0, Karbohidrat: 10.8, Lemak: 0.4, Protein: 1.1",
+    "llm_response": "Makanan tersebut belum tersedia di database Calorify.",
+    "f1_bertscore": 0.5802
+  },
+  {
+    "query": "Saya mencari kandungan dari alete segar.",
+    "ground_truth": "Aletoge segar, Kalori: 37.0, Karbohidrat: 3.8, Lemak: 0.5, Protein: 4.4",
+    "llm_response": "Maaf, makanan yang Anda cari tidak tersedia di database Calorify. Namun, saya memiliki informasi tentang \"Apel\" (apel segar) yang mungkin sesuai dengan apa yang Anda cari.\n\nBerikut informasi tentang Apel:\n\n* Kalori: 58.0\n* Karbohidrat: 14.9\n* Lemak: 0.4\n* Protein: 0.3\n\nJika Anda memiliki pertanyaan lain, silakan bertanya!",
+    "f1_bertscore": 0.7084
+  },
+  {
+    "query": "Saya mencari kandungan dari alpukat segar.",
+    "ground_truth": "Alpukat segar, Kalori: 85.0, Karbohidrat: 7.7, Lemak: 6.5, Protein: 0.9",
+    "llm_response": "Alpukat segar!\n\nBerikut ini adalah kandungan dari alpukat segar:\n\n* Kalori: 85.0\n* Karbohidrat: 7.7\n* Lemak: 6.5\n* Protein: 0.9\n\nSemoga informasi ini membantu!",
+    "f1_bertscore": 0.8193
+  },
+  {
+    "query": "saya mencari kandungan dari ampas kacang hijau",
+    "ground_truth": "Ampas kacang hijau, Kalori: 96.0, Karbohidrat: 19.1, Lemak: 0.6, Protein: 3.7",
+    "llm_response": "Maaf, makanan \"ampas kacang hijau\" belum tersedia di database Calorify.",
+    "f1_bertscore": 0.6419
+  },
+  {
+    "query": "saya mencari kandungan dari Ampas Tahu",
+    "ground_truth": "Ampas Tahu, Kalori: 414.0, Karbohidrat: 41.3, Lemak: 18.3, Protein: 26.6",
+    "llm_response": "Makanan tersebut belum tersedia di database Calorify.",
+    "f1_bertscore": 0.5675
+  },
+  {
+    "query": "Saya mencari kandungan dari ampas tahu kukus.",
+    "ground_truth": "Ampas tahu kukus, Kalori: 75.0, Karbohidrat: 10.7, Lemak: 2.1, Protein: 4.1",
+    "llm_response": "Maaf, makanan \"ampas tahu kukus\" belum tersedia di database Calorify.",
+    "f1_bertscore": 0.6302
+  },
+  {
+    "query": "Saya mencari kandungan dari ampas tahu mentah",
+    "ground_truth": "Ampas tahu mentah, Kalori: 67.0, Karbohidrat: 8.1, Lemak: 2.1, Protein: 5.0",
+    "llm_response": "Makanan tersebut belum tersedia di database Calorify. Namun, saya punya informasi tentang kandungan tahu, tapi tidak spesifik untuk ampas tahu mentah. Apakah Anda ingin tahu kandungan tahu biasa?",
+    "f1_bertscore": 0.6019
+  }
+]
