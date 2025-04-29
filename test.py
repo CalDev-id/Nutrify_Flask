@@ -1,8 +1,7 @@
 import argparse
 import os
 import json
-from RAG.FaissDB.rag_faiss import RagFaiss
-from RAG.ChromaDB.rag_chroma import RagChroma
+from rag import RagChroma
 from bert_score import score
 from LLM.groq_runtime import GroqRunTime
 
@@ -18,7 +17,7 @@ class NutritionTest:
             return json.load(f)
 
     def load_rag(self):
-        return RagFaiss() if self.db_choice == 'faiss' else RagChroma()
+        return RagChroma()
 
     def get_refined_query(self, item):
         # """ Buat query dari nama makanan """
