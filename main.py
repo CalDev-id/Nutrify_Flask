@@ -10,7 +10,7 @@ from typing import List, Dict, Any
 app = FastAPI()
 
 # Load model dan database
-embedding_model = SentenceTransformer("sentence-transformers/multi-qa-mpnet-base-dot-v1")
+embedding_model = SentenceTransformer("all-MiniLM-L6-v2")
 chroma_client = chromadb.PersistentClient(path="Database")
 collection = chroma_client.get_or_create_collection(name="nutrition")
 
