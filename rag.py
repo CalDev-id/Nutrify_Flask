@@ -8,7 +8,7 @@ from LLM.groq_runtime import GroqRunTime
 class RagChroma:
     def __init__(self, db_path="Database"):
         self.db_path = db_path
-        self.embedding_model = SentenceTransformer("sentence-transformers/multi-qa-mpnet-base-dot-v1")
+        self.embedding_model = SentenceTransformer("all-MiniLM-L6-v2")
         self.chroma_client = chromadb.PersistentClient(path=self.db_path)
         self.collection = self.chroma_client.get_or_create_collection(name="nutrition")
 
